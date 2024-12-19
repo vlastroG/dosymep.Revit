@@ -1,0 +1,3985 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SharedParamsConfig | dosymep.Revit </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SharedParamsConfig | dosymep.Revit ">
+      
+      <meta name="description" content="Конфигурация общих параметров.">
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="dosymep.Revit">
+            dosymep.Revit
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig">
+
+
+
+  <h1 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig" class="text-break">
+Class SharedParamsConfig  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="dosymep.html">dosymep</a>.<a class="xref" href="dosymep.Bim4Everyone.html">Bim4Everyone</a>.<a class="xref" href="dosymep.Bim4Everyone.SharedParams.html">SharedParams</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>dosymep.Bim4Everyone.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Конфигурация общих параметров.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SharedParamsConfig : RevitParamsConfig, ISharedParamsService, IParamElementService, IRevitParamsService</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="dosymep.Bim4Everyone.RevitParamsConfig.html">RevitParamsConfig</a></div>
+      <div><span class="xref">SharedParamsConfig</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="dosymep.Bim4Everyone.SimpleServices.ISharedParamsService.html">ISharedParamsService</a></div>
+      <div><a class="xref" href="dosymep.Bim4Everyone.SimpleServices.IParamElementService.html">IParamElementService</a></div>
+      <div><a class="xref" href="dosymep.Bim4Everyone.SimpleServices.IRevitParamsService.html">IRevitParamsService</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="dosymep.Bim4Everyone.RevitParamsConfig.html#dosymep_Bim4Everyone_RevitParamsConfig__revitParams">RevitParamsConfig._revitParams</a>
+    </div>
+    <div>
+      <a class="xref" href="dosymep.Bim4Everyone.RevitParamsConfig.html#dosymep_Bim4Everyone_RevitParamsConfig_Save_System_String_">RevitParamsConfig.Save(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="dosymep.Bim4Everyone.RevitParamsConfig.html#dosymep_Bim4Everyone_RevitParamsConfig_GetRevitParams">RevitParamsConfig.GetRevitParams()</a>
+    </div>
+    <div>
+      <a class="xref" href="dosymep.Bim4Everyone.RevitParamsConfig.html#dosymep_Bim4Everyone_RevitParamsConfig_Item_System_String_">RevitParamsConfig.this[string]</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_AlbumBlueprints_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.AlbumBlueprints*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_AlbumBlueprints" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.AlbumBlueprints">
+  AlbumBlueprints
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ADSK_Комплект чертежей</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam AlbumBlueprints { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentArea_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentArea*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentArea" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentArea">
+  ApartmentArea
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_КВР_Площадь без коэф.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentArea { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaFix_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaFix*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaFix" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaFix">
+  ApartmentAreaFix
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ФИКС_КВР_Площадь без коэф.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentAreaFix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaMaxSpec_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaMaxSpec*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaMaxSpec" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaMaxSpec">
+  ApartmentAreaMaxSpec
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_КВР_Площадь по ТЗ макс</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentAreaMaxSpec { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaMinSpec_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaMinSpec*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaMinSpec" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaMinSpec">
+  ApartmentAreaMinSpec
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_КВР_Площадь по ТЗ мин</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentAreaMinSpec { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaNoBalcony_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaNoBalcony*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaNoBalcony" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaNoBalcony">
+  ApartmentAreaNoBalcony
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_КВР_Площадь без ЛП</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentAreaNoBalcony { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaNoBalconyFix_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaNoBalconyFix*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaNoBalconyFix" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaNoBalconyFix">
+  ApartmentAreaNoBalconyFix
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ФИКС_КВР_Площадь без ЛП</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentAreaNoBalconyFix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaRatio_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaRatio*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaRatio" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaRatio">
+  ApartmentAreaRatio
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_КВР_Площадь с коэф.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentAreaRatio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaRatioFix_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaRatioFix*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaRatioFix" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaRatioFix">
+  ApartmentAreaRatioFix
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ФИКС_КВР_Площадь с коэф.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentAreaRatioFix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaSpec_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaSpec*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentAreaSpec" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentAreaSpec">
+  ApartmentAreaSpec
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_КВР_Площадь по ТЗ</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentAreaSpec { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentFullArea_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentFullArea*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentFullArea" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentFullArea">
+  ApartmentFullArea
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_КВР_Площадь по пятну</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentFullArea { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentFullAreaFix_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentFullAreaFix*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentFullAreaFix" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentFullAreaFix">
+  ApartmentFullAreaFix
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ФИКС_КВР_Площадь по пятну</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentFullAreaFix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentGroupName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentGroupName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentGroupName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentGroupName">
+  ApartmentGroupName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Доп. сортировка групп</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentGroupName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentLivingArea_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentLivingArea*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentLivingArea" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentLivingArea">
+  ApartmentLivingArea
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_КВР_Площадь жилая</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentLivingArea { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentLivingAreaFix_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentLivingAreaFix*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentLivingAreaFix" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentLivingAreaFix">
+  ApartmentLivingAreaFix
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ФИКС_КВР_Площадь жилая</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentLivingAreaFix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentNumber_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentNumber*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentNumber" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentNumber">
+  ApartmentNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Номер квартиры</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentNumberExtra_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentNumberExtra*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ApartmentNumberExtra" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ApartmentNumberExtra">
+  ApartmentNumberExtra
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Доп. номер помещения</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ApartmentNumberExtra { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_BuildingWorksBlock_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.BuildingWorksBlock*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_BuildingWorksBlock" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.BuildingWorksBlock">
+  BuildingWorksBlock
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Блок СМР</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam BuildingWorksBlock { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_BuildingWorksLevel_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.BuildingWorksLevel*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_BuildingWorksLevel" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.BuildingWorksLevel">
+  BuildingWorksLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Этаж СМР</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam BuildingWorksLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_BuildingWorksSection_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.BuildingWorksSection*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_BuildingWorksSection" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.BuildingWorksSection">
+  BuildingWorksSection
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Секция СМР</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam BuildingWorksSection { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_BuildingWorksTyping_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.BuildingWorksTyping*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_BuildingWorksTyping" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.BuildingWorksTyping">
+  BuildingWorksTyping
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Типизация СМР</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam BuildingWorksTyping { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_EconomicFunction_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.EconomicFunction*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_EconomicFunction" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.EconomicFunction">
+  EconomicFunction
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Экономическая функция</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam EconomicFunction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ElementMirroring_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ElementMirroring*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_ElementMirroring" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.ElementMirroring">
+  ElementMirroring
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Зеркальность</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam ElementMirroring { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_FireCompartmentShortName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.FireCompartmentShortName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_FireCompartmentShortName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.FireCompartmentShortName">
+  FireCompartmentShortName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Пожарный отсек</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam FireCompartmentShortName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_FixBuildingWorks_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.FixBuildingWorks*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_FixBuildingWorks" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.FixBuildingWorks">
+  FixBuildingWorks
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Фиксация координаты СМР</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam FixBuildingWorks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_FixComment_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.FixComment*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_FixComment" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.FixComment">
+  FixComment
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ФИКС_Комментарии</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam FixComment { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_Instance_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.Instance*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_Instance" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.Instance">
+  Instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Текущее состояние конфигурации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SharedParamsConfig Instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.html">SharedParamsConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_Instance_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Перед использованием нужно вызвать <a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.html#dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_LoadInstance_System_String_">LoadInstance(string)</a></p>
+</div>
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_Level_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.Level*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_Level" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.Level">
+  Level
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Этаж</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam Level { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_MechanicalSystemName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.MechanicalSystemName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_MechanicalSystemName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.MechanicalSystemName">
+  MechanicalSystemName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ADSK_Имя системы</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam MechanicalSystemName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomArea_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomArea*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomArea" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomArea">
+  RoomArea
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ПМЩ_Площадь</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomArea { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomAreaFix_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomAreaFix*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomAreaFix" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomAreaFix">
+  RoomAreaFix
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ФИКС_ПМЩ_Площадь</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomAreaFix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomAreaRatio_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomAreaRatio*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomAreaRatio" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomAreaRatio">
+  RoomAreaRatio
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Коэффициент площади</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomAreaRatio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomAreaWithRatio_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomAreaWithRatio*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomAreaWithRatio" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomAreaWithRatio">
+  RoomAreaWithRatio
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ПМЩ_Площадь с коэф.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomAreaWithRatio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomAreaWithRatioFix_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomAreaWithRatioFix*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomAreaWithRatioFix" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomAreaWithRatioFix">
+  RoomAreaWithRatioFix
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ФИКС_ПМЩ_Площадь с коэф.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomAreaWithRatioFix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomBuildingShortName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomBuildingShortName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomBuildingShortName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomBuildingShortName">
+  RoomBuildingShortName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ПМЩ_Корпус</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomBuildingShortName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomGroupShortName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomGroupShortName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomGroupShortName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomGroupShortName">
+  RoomGroupShortName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ПМЩ_Группа</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomGroupShortName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomMultilevelGroup_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomMultilevelGroup*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomMultilevelGroup" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomMultilevelGroup">
+  RoomMultilevelGroup
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Многоуровневая группа</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomMultilevelGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomSectionShortName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomSectionShortName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomSectionShortName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomSectionShortName">
+  RoomSectionShortName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ПМЩ_Секция</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomSectionShortName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomTypeGroupShortName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomTypeGroupShortName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomTypeGroupShortName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomTypeGroupShortName">
+  RoomTypeGroupShortName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Тип группы помещений</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomTypeGroupShortName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomsCount_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomsCount*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_RoomsCount" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.RoomsCount">
+  RoomsCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_Количество комнат</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam RoomsCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_StampSheetNumber_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.StampSheetNumber*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_StampSheetNumber" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.StampSheetNumber">
+  StampSheetNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ш.НомерЛиста</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam StampSheetNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISCombinedName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISCombinedName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISCombinedName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISCombinedName">
+  VISCombinedName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Наименование комбинированное</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISCombinedName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISConsiderDuctFittings_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISConsiderDuctFittings*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISConsiderDuctFittings" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISConsiderDuctFittings">
+  VISConsiderDuctFittings
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Учитывать фитинги воздуховодов</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISConsiderDuctFittings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISConsiderPipeFittings_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISConsiderPipeFittings*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISConsiderPipeFittings" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISConsiderPipeFittings">
+  VISConsiderPipeFittings
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Учитывать фитинги труб</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISConsiderPipeFittings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISConsiderPipeFittingsByType_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISConsiderPipeFittingsByType*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISConsiderPipeFittingsByType" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISConsiderPipeFittingsByType">
+  VISConsiderPipeFittingsByType
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Учитывать фитинги труб по типу трубы</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISConsiderPipeFittingsByType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISCrossSection_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISCrossSection*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISCrossSection" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISCrossSection">
+  VISCrossSection
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Живое сечение, м2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISCrossSection { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISDiameterExternalXThikness_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISDiameterExternalXThikness*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISDiameterExternalXThikness" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISDiameterExternalXThikness">
+  VISDiameterExternalXThikness
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Днар х Стенка</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISDiameterExternalXThikness { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISDiameterNominal_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISDiameterNominal*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISDiameterNominal" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISDiameterNominal">
+  VISDiameterNominal
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Ду</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISDiameterNominal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISDiameterNominalXThikness_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISDiameterNominalXThikness*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISDiameterNominalXThikness" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISDiameterNominalXThikness">
+  VISDiameterNominalXThikness
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Ду х Стенка</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISDiameterNominalXThikness { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISDuctInsulationReserve_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISDuctInsulationReserve*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISDuctInsulationReserve" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISDuctInsulationReserve">
+  VISDuctInsulationReserve
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Запас изоляции воздуховодов</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISDuctInsulationReserve { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISEconomicFunction_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISEconomicFunction*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISEconomicFunction" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISEconomicFunction">
+  VISEconomicFunction
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Экономическая функция</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISEconomicFunction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISExcludeFromJunction_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISExcludeFromJunction*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISExcludeFromJunction" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISExcludeFromJunction">
+  VISExcludeFromJunction
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Исключить из узла</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISExcludeFromJunction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISGrouping_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISGrouping*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISGrouping" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISGrouping">
+  VISGrouping
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Группирование</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISGrouping { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISGroupingForced_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISGroupingForced*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISGroupingForced" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISGroupingForced">
+  VISGroupingForced
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Группирование принудительное</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISGroupingForced { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISHvacSystemForcedFunction_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISHvacSystemForcedFunction*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISHvacSystemForcedFunction" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISHvacSystemForcedFunction">
+  VISHvacSystemForcedFunction
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_ЭФ принудительная</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISHvacSystemForcedFunction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISHvacSystemFunction_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISHvacSystemFunction*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISHvacSystemFunction" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISHvacSystemFunction">
+  VISHvacSystemFunction
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_ЭФ для системы</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISHvacSystemFunction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIndividualStock_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIndividualStock*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIndividualStock" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIndividualStock">
+  VISIndividualStock
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Индивидуальный запас</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISIndividualStock { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1ConsumptionPerMetr_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1ConsumptionPerMetr*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1ConsumptionPerMetr" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1ConsumptionPerMetr">
+  VISInsulationConsumable1ConsumptionPerMetr
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 1_Расход по м.п.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable1ConsumptionPerMetr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1ConsumptionPerSqM_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1ConsumptionPerSqM*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1ConsumptionPerSqM" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1ConsumptionPerSqM">
+  VISInsulationConsumable1ConsumptionPerSqM
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 1_Расход на м2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable1ConsumptionPerSqM { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1Manufacturer_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1Manufacturer*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1Manufacturer" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1Manufacturer">
+  VISInsulationConsumable1Manufacturer
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 1_Изготовитель</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable1Manufacturer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1MarkNumber_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1MarkNumber*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1MarkNumber" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1MarkNumber">
+  VISInsulationConsumable1MarkNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 1_Марка</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable1MarkNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1Name_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1Name*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1Name" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1Name">
+  VISInsulationConsumable1Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 1_Наименование</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable1Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1Unit_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1Unit*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable1Unit" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable1Unit">
+  VISInsulationConsumable1Unit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 1_Ед. изм.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable1Unit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2ConsumptionPerMetr_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2ConsumptionPerMetr*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2ConsumptionPerMetr" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2ConsumptionPerMetr">
+  VISInsulationConsumable2ConsumptionPerMetr
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 2_Расход по м.п.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable2ConsumptionPerMetr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2ConsumptionPerSqM_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2ConsumptionPerSqM*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2ConsumptionPerSqM" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2ConsumptionPerSqM">
+  VISInsulationConsumable2ConsumptionPerSqM
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 2_Расход на м2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable2ConsumptionPerSqM { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2Manufacturer_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2Manufacturer*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2Manufacturer" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2Manufacturer">
+  VISInsulationConsumable2Manufacturer
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 2_Изготовитель</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable2Manufacturer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2MarkNumber_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2MarkNumber*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2MarkNumber" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2MarkNumber">
+  VISInsulationConsumable2MarkNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 2_Марка</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable2MarkNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2Name_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2Name*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2Name" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2Name">
+  VISInsulationConsumable2Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 2_Наименование</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable2Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2Unit_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2Unit*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable2Unit" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable2Unit">
+  VISInsulationConsumable2Unit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 2_Ед. изм.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable2Unit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3ConsumptionPerMetr_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3ConsumptionPerMetr*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3ConsumptionPerMetr" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3ConsumptionPerMetr">
+  VISInsulationConsumable3ConsumptionPerMetr
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 3_Расход по м.п.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable3ConsumptionPerMetr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3ConsumptionPerSqM_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3ConsumptionPerSqM*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3ConsumptionPerSqM" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3ConsumptionPerSqM">
+  VISInsulationConsumable3ConsumptionPerSqM
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 3_Расход на м2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable3ConsumptionPerSqM { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3Manufacturer_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3Manufacturer*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3Manufacturer" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3Manufacturer">
+  VISInsulationConsumable3Manufacturer
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 3_Изготовитель</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable3Manufacturer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3MarkNumber_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3MarkNumber*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3MarkNumber" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3MarkNumber">
+  VISInsulationConsumable3MarkNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 3_Марка</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable3MarkNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3Name_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3Name*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3Name" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3Name">
+  VISInsulationConsumable3Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 3_Наименование</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable3Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3Unit_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3Unit*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationConsumable3Unit" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationConsumable3Unit">
+  VISInsulationConsumable3Unit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Изол_Расходник 3_Ед. изм.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationConsumable3Unit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationReserve_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationReserve*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISInsulationReserve" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISInsulationReserve">
+  VISInsulationReserve
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Запас изоляции</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISInsulationReserve { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIsClampsCalculation_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIsClampsCalculation*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIsClampsCalculation" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIsClampsCalculation">
+  VISIsClampsCalculation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Расчет хомутов</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISIsClampsCalculation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIsFasteningMetalCalculation_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIsFasteningMetalCalculation*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIsFasteningMetalCalculation" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIsFasteningMetalCalculation">
+  VISIsFasteningMetalCalculation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Расчет металла для креплений</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISIsFasteningMetalCalculation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIsPaintCalculation_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIsPaintCalculation*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIsPaintCalculation" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIsPaintCalculation">
+  VISIsPaintCalculation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Расчет краски и грунтовки</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISIsPaintCalculation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIsPipeNameFromSegment_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIsPipeNameFromSegment*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISIsPipeNameFromSegment" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISIsPipeNameFromSegment">
+  VISIsPipeNameFromSegment
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Имя трубы из сегмента</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISIsPipeNameFromSegment { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISItemCode_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISItemCode*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISItemCode" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISItemCode">
+  VISItemCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Код изделия</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISItemCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISJunction_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISJunction*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISJunction" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISJunction">
+  VISJunction
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Узел</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISJunction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISLocalResistanceCoef_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISLocalResistanceCoef*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISLocalResistanceCoef" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISLocalResistanceCoef">
+  VISLocalResistanceCoef
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_КМС</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISLocalResistanceCoef { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISManufacturer_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISManufacturer*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISManufacturer" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISManufacturer">
+  VISManufacturer
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Завод-изготовитель</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISManufacturer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMarkAxisToZero_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMarkAxisToZero*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMarkAxisToZero" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMarkAxisToZero">
+  VISMarkAxisToZero
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Отметка оси от нуля</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISMarkAxisToZero { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMarkBottomToZero_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMarkBottomToZero*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMarkBottomToZero" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMarkBottomToZero">
+  VISMarkBottomToZero
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Отметка низа от нуля</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISMarkBottomToZero { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMarkNumber_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMarkNumber*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMarkNumber" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMarkNumber">
+  VISMarkNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Марка</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISMarkNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMass_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMass*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMass" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMass">
+  VISMass
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Масса</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISMass { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMaxDuctThickness_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMaxDuctThickness*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMaxDuctThickness" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMaxDuctThickness">
+  VISMaxDuctThickness
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Максимальная толщина воздуховода</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISMaxDuctThickness { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMinDuctThickness_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMinDuctThickness*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISMinDuctThickness" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISMinDuctThickness">
+  VISMinDuctThickness
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Минимальная толщина воздуховода</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISMinDuctThickness { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISNameAddition_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISNameAddition*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISNameAddition" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISNameAddition">
+  VISNameAddition
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Дополнение к имени</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISNameAddition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISNameForced_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISNameForced*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISNameForced" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISNameForced">
+  VISNameForced
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Наименование принудительное</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISNameForced { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISNote_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISNote*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISNote" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISNote">
+  VISNote
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Примечание</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISNote { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISOutSystemName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISOutSystemName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISOutSystemName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISOutSystemName">
+  VISOutSystemName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Имя внесистемных элементов</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISOutSystemName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementItemCode_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementItemCode*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementItemCode" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementItemCode">
+  VISParamReplacementItemCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Замена параметра_Код изделия</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISParamReplacementItemCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementManufacturer_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementManufacturer*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementManufacturer" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementManufacturer">
+  VISParamReplacementManufacturer
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Замена параметра_Завод-изготовитель</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISParamReplacementManufacturer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementMarkNumber_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementMarkNumber*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementMarkNumber" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementMarkNumber">
+  VISParamReplacementMarkNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Замена параметра_Марка</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISParamReplacementMarkNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementName">
+  VISParamReplacementName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Замена параметра_Наименование</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISParamReplacementName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementUnit_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementUnit*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISParamReplacementUnit" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISParamReplacementUnit">
+  VISParamReplacementUnit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Замена параметра_Единица измерения</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISParamReplacementUnit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISPipeDuctReserve_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISPipeDuctReserve*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISPipeDuctReserve" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISPipeDuctReserve">
+  VISPipeDuctReserve
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Запас воздуховодов/труб</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISPipeDuctReserve { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISPipeInsulationReserve_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISPipeInsulationReserve*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISPipeInsulationReserve" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISPipeInsulationReserve">
+  VISPipeInsulationReserve
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Запас изоляции труб</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISPipeInsulationReserve { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISPosition_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISPosition*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISPosition" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISPosition">
+  VISPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Позиция</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSpecNumbers_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSpecNumbers*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSpecNumbers" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSpecNumbers">
+  VISSpecNumbers
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Число</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISSpecNumbers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSpecNumbersCurrency_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSpecNumbersCurrency*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSpecNumbersCurrency" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSpecNumbersCurrency">
+  VISSpecNumbersCurrency
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Число ДЕ</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISSpecNumbersCurrency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSystemName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSystemName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSystemName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSystemName">
+  VISSystemName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Имя системы</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISSystemName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSystemNameForced_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSystemNameForced*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSystemNameForced" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSystemNameForced">
+  VISSystemNameForced
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Имя системы принудительное</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISSystemNameForced { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSystemShortName_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSystemShortName*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISSystemShortName" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISSystemShortName">
+  VISSystemShortName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Сокращение для системы</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISSystemShortName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISUnit_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISUnit*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_VISUnit" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.VISUnit">
+  VISUnit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ФОП_ВИС_Единица измерения</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam VISUnit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_CreateRevitParam_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.CreateRevitParam*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_CreateRevitParam_Autodesk_Revit_DB_Document_Autodesk_Revit_DB_ParameterElement_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.CreateRevitParam(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.ParameterElement)">
+  CreateRevitParam(Document, ParameterElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Создает общий параметр.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam CreateRevitParam(Document document, ParameterElement revitParamElement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>document</code> <span class="xref">Document</span></dt>
+    <dd><p>Документ общего параметра.</p>
+</dd>
+    <dt><code>revitParamElement</code> <span class="xref">ParameterElement</span></dt>
+    <dd><p>Элемент общего параметра.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd><p>Возвращает новый созданный общий параметр.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_CreateRevitParam_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.CreateRevitParam*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_CreateRevitParam_Autodesk_Revit_DB_Document_System_String_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.CreateRevitParam(Autodesk.Revit.DB.Document,System.String)">
+  CreateRevitParam(Document, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Создает общий параметр.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam CreateRevitParam(Document document, string revitParamName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>document</code> <span class="xref">Document</span></dt>
+    <dd><p>Документ общего параметра.</p>
+</dd>
+    <dt><code>revitParamName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Наименование общего параметра.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd><p>Возвращает новый созданный общий параметр.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_CreateRevitParam_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.CreateRevitParam*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_CreateRevitParam_Autodesk_Revit_DB_Document_System_String_Autodesk_Revit_DB_ParameterElement_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.CreateRevitParam(Autodesk.Revit.DB.Document,System.String,Autodesk.Revit.DB.ParameterElement)">
+  CreateRevitParam(Document, string, ParameterElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Создает общий параметр.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam CreateRevitParam(Document document, string propertyName, ParameterElement revitParamElement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>document</code> <span class="xref">Document</span></dt>
+    <dd><p>Документ общего параметра.</p>
+</dd>
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Уникальное название параметра.</p>
+</dd>
+    <dt><code>revitParamElement</code> <span class="xref">ParameterElement</span></dt>
+    <dd><p>Элемент общего параметра.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd><p>Возвращает новый созданный общий параметр.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_CreateRevitParam_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.CreateRevitParam*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_CreateRevitParam_Autodesk_Revit_DB_Document_System_String_System_String_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.CreateRevitParam(Autodesk.Revit.DB.Document,System.String,System.String)">
+  CreateRevitParam(Document, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Создает общий параметр.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedParam CreateRevitParam(Document document, string propertyName, string revitParamName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>document</code> <span class="xref">Document</span></dt>
+    <dd><p>Документ общего параметра.</p>
+</dd>
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Уникальное название параметра.</p>
+</dd>
+    <dt><code>revitParamName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Наименование общего параметра.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a></dt>
+    <dd><p>Возвращает новый созданный общий параметр.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_GetDefaultConfig_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.GetDefaultConfig*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_GetDefaultConfig" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.GetDefaultConfig">
+  GetDefaultConfig()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Возвращает конфигурацию по умолчанию.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SharedParamsConfig GetDefaultConfig()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.html">SharedParamsConfig</a></dt>
+    <dd><p>Возвращает конфигурацию по умолчанию.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_GetRevitParams_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.GetRevitParams*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_GetRevitParams_Autodesk_Revit_DB_Document_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.GetRevitParams(Autodesk.Revit.DB.Document)">
+  GetRevitParams(Document)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Возвращает весь список общих параметров.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;SharedParam&gt; GetRevitParams(Document document)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>document</code> <span class="xref">Document</span></dt>
+    <dd><p>Документ из которого берутся параметры.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParam.html">SharedParam</a>&gt;</dt>
+    <dd><p>Возвращает весь список общих параметров.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_Load_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.Load*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_Load_System_String_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.Load(System.String)">
+  Load(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Загрузка текущей конфигурации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SharedParamsConfig Load(string configPath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>configPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Путь до конфигурации.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.html">SharedParamsConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_Load_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Возвращает конфигурацию по умолчанию если был найден переданный файл.</p>
+</div>
+
+
+
+
+  <a id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_LoadInstance_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.LoadInstance*"></a>
+
+  <h3 id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_LoadInstance_System_String_" data-uid="dosymep.Bim4Everyone.SharedParams.SharedParamsConfig.LoadInstance(System.String)">
+  LoadInstance(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Загрузка текущей конфигурации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadInstance(string configPath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>configPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Путь до конфигурации.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="dosymep_Bim4Everyone_SharedParams_SharedParamsConfig_LoadInstance_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Возвращает конфигурацию по умолчанию если был найден переданный файл.</p>
+</div>
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2023 dosymep
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
